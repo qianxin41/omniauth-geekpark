@@ -2,7 +2,7 @@ module OmniAuth
   module Strategies
     class GeekPark < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        site: 'https://account.geekpark.net',
+        site: 'http://account_test.geekpark.net',
         authorize_url: '/oauth2/authorize',
         token_url: '/oauth2/token'
       }
